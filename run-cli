@@ -1,0 +1,2 @@
+mkdir -p output
+cd cli && g++ ./main.cpp -o ../output/othello-cli.out && ../output/othello-cli.out

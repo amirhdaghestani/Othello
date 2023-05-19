@@ -1,0 +1,2 @@
+mkdir -p output
+cd gui && g++ ./main.cpp -lSDL2 -lSDL2_image -g -o ../output/othello-gui.out && ../output/othello-gui.out
